@@ -1,4 +1,4 @@
-import { cn } from '@/core/lib/utils'
+import { cn } from '@/core/lib/utils';
 
 function Skeleton({ className, ...props }: React.ComponentProps<'div'>) {
   return (
@@ -7,7 +7,7 @@ function Skeleton({ className, ...props }: React.ComponentProps<'div'>) {
       data-slot="skeleton"
       {...props}
     />
-  )
+  );
 }
 
-export { Skeleton }
+export { Skeleton };

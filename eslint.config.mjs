@@ -1,8 +1,8 @@
-import nextVitals from 'eslint-config-next/core-web-vitals'
-import { defineConfig, globalIgnores } from 'eslint/config'
+import nextVitals from 'eslint-config-next/core-web-vitals';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import perfectionist from 'eslint-plugin-perfectionist';
-import nextTs from 'eslint-config-next/typescript'
-import prettier from 'eslint-config-prettier/flat'
+import nextTs from 'eslint-config-next/typescript';
+import prettier from 'eslint-config-prettier/flat';
 
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -183,6 +183,6 @@ const eslintConfig = defineConfig([
       perfectionist,
     },
   },
-])
+]);
 
-export default eslintConfig
+export default eslintConfig;

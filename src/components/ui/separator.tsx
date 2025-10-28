@@ -1,10 +1,10 @@
-'use client'
+'use client';
 
-import * as React from 'react'
+import * as React from 'react';
 
-import * as SeparatorPrimitive from '@radix-ui/react-separator'
+import * as SeparatorPrimitive from '@radix-ui/react-separator';
 
-import { cn } from '@/core/lib/utils'
+import { cn } from '@/core/lib/utils';
 
 function Separator({
   orientation = 'horizontal',
@@ -23,7 +23,7 @@ function Separator({
       data-slot="separator"
       {...props}
     />
-  )
+  );
 }
 
-export { Separator }
+export { Separator };
